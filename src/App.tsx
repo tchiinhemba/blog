@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.scss";
+import { Router } from "./routes/routes";
 
 function App() {
-
   return (
     <div className="App">
-
+      <Router />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
