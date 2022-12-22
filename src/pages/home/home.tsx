@@ -1,9 +1,10 @@
+import "./main.scss";
+import { Header } from "../../components/header";
 
-
-export function Home () {
-    return (
-        <div>
-            <p>This is a test!</p>
-        </div>
-    )
+export function Home() {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
